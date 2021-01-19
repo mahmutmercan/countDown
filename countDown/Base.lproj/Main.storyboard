@@ -73,10 +73,14 @@
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KPJ-vR-2ea">
+                                <rect key="frame" x="8" y="494" width="398" height="216"/>
+                            </pickerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.792156862745098" green="0.77254901960784317" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KPJ-vR-2ea" secondAttribute="trailing" constant="8" id="1Fd-4h-2ci"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GNl-vo-CFE" secondAttribute="trailing" constant="16" id="5g2-En-pYe"/>
                             <constraint firstItem="GNl-vo-CFE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="8Jy-dD-LOQ"/>
                             <constraint firstItem="VQg-I3-Ihc" firstAttribute="top" secondItem="IAz-CB-GlN" secondAttribute="bottom" constant="80" id="9v7-BB-U08"/>
@@ -85,6 +89,7 @@
                             <constraint firstItem="IAz-CB-GlN" firstAttribute="top" secondItem="wVl-gf-gjh" secondAttribute="bottom" constant="16" id="HJf-WH-aOk"/>
                             <constraint firstItem="hH9-L1-1BN" firstAttribute="leading" secondItem="IAz-CB-GlN" secondAttribute="trailing" constant="8" id="Nfj-Ko-ebO"/>
                             <constraint firstItem="hH9-L1-1BN" firstAttribute="top" secondItem="wVl-gf-gjh" secondAttribute="bottom" constant="16" id="UaW-Uv-5NU"/>
+                            <constraint firstItem="KPJ-vR-2ea" firstAttribute="top" secondItem="KYE-eW-x6F" secondAttribute="bottom" constant="40" id="a10-UR-mgq"/>
                             <constraint firstItem="KYE-eW-x6F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="bKI-ck-XGM"/>
                             <constraint firstItem="KYE-eW-x6F" firstAttribute="top" secondItem="GNl-vo-CFE" secondAttribute="bottom" constant="96" id="cYh-Bn-hdh"/>
                             <constraint firstItem="Lor-aB-TnF" firstAttribute="top" secondItem="wVl-gf-gjh" secondAttribute="bottom" constant="16" id="fBx-NP-IwW"/>
@@ -94,6 +99,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gqe-pO-G63" secondAttribute="trailing" constant="64" id="q6w-n3-tBS"/>
                             <constraint firstItem="GNl-vo-CFE" firstAttribute="top" secondItem="VQg-I3-Ihc" secondAttribute="bottom" constant="24" id="rA9-vw-2Ul"/>
                             <constraint firstItem="gqe-pO-G63" firstAttribute="top" secondItem="GNl-vo-CFE" secondAttribute="bottom" constant="96" id="rNL-jX-e0F"/>
+                            <constraint firstItem="KPJ-vR-2ea" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="sJm-PB-BTu"/>
                             <constraint firstItem="IAz-CB-GlN" firstAttribute="leading" secondItem="Lor-aB-TnF" secondAttribute="trailing" constant="8" id="sox-Ch-ZSw"/>
                             <constraint firstItem="wVl-gf-gjh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="w9g-Ai-ibs"/>
                         </constraints>
@@ -107,6 +113,7 @@
                         <outlet property="secondsTextField" destination="hH9-L1-1BN" id="yQU-lA-ddk"/>
                         <outlet property="startStopButton" destination="KYE-eW-x6F" id="2KH-qQ-ztu"/>
                         <outlet property="titleLabel" destination="wVl-gf-gjh" id="qoa-6N-slC"/>
+                        <outlet property="workTimePicker" destination="KPJ-vR-2ea" id="4I8-Ni-G2S"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
